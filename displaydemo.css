@@ -1,0 +1,30 @@
+.style1{
+    height:300px; width:49%;margin-top:1px; border:1px solid black; float:left;
+}
+.style2{
+    height:300px; width:49%;  margin-top:1px; margin-left:5px; border:1px solid black; float:left; 
+}
+.style3{
+    height:300px; width:49%; margin-top:5px; border:1px solid black; float:left; 
+}
+.style4{
+    height:300px; width:49%; margin-top:5px; margin-left:5px; border:1px solid black; float:left;
+}
+.bloc{
+    height:150px; width:150px; margin-left:10px; margin-top:10px; border:1px; float:left; background-color: bisque; cursor: pointer;
+}
+.round{
+    height:200px; width:200px; margin-top:90px; border-radius:50%; border:1px; float:right; background-color:cornflowerblue; cursor: pointer;
+}
+.style1 .bloc:hover{
+    border-radius:50%; 
+}
+.style1 .round:hover{
+    border-radius:0%; 
+}
+.style4 .bloc:hover{
+    visibility: hidden;
+}
+.style4 .round:hover{
+    background-color: brown
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>testing</title>
+        <!-- <script src="../JS/demo.js"></script> -->
+    </head>
+    <body>
+        <p>Testing Script</p>
+        <p id='pp' on></p>
+        <script>
+            var msg = document.getElementsByTagName('p');
+            var str = msg[0].innerHTML.split(' ')[1];
+            document.getElementById('pp').innerHTML = 'From get Elemts by tagname: ' + msg[0].innerHTML + ' ' +str;
+        </script>
+    </body>
+</html>

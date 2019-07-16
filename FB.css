@@ -1,0 +1,199 @@
+body{
+    background-color:#EAEBEF; font-family: Helvetica, Arial, sans-serif; 
+}
+header{
+    height:43px; width:100%; border-bottom: 1px solid rgb(2, 61, 109) ; background-color:#4266B2; top:0px; right:0px; position : fixed;
+}
+header img{
+    height:25px; width:25px; float:left; margin-left:65px; margin-top:10px;
+}
+.serch{
+    height:25px; width:398px; margin-top:10px; margin-left:10px; font-size: 14px; float:left; border:0px solid black;
+}
+.serch input{
+    height:25px; width:350px; margin-top:0px; margin-left:0px; font-size: 14px; float:left;
+}
+.serch img{
+    height:25px; width:48px; margin-left:0px;  margin-top:0px; border:0px solid blue; cursor: pointer;
+}
+.serch:hover{
+    background-color:#385899;
+}
+.pic{
+    height:30px; width:100px; margin-left:13%; border:px solid black;  background-color:#4266B2; color:white; margin-top:6px;
+     cursor: pointer; float: left;
+}
+.pic img{
+    height:30px; width:30px; border-radius:50%; margin-top:1px; margin-left:5px; float: left;
+}
+.pic a{
+    text-decoration: none; color:white; margin-left:5px;  margin-top:9px; font-size: 12px; float: left;
+}
+.pic:hover{
+    background-color:#385899;
+}
+.home{
+    height:30px; width:60px; border:px solid black;  background-color:#4266B2; color:white; margin-top:6px;
+     cursor: pointer; float: left; margin-left:10px;
+}
+.home a{
+   margin-left:13px; text-decoration: none; color:white; font-size: 12px; margin-top:9px; float: left;
+}
+.home:hover{
+    background-color:#385899;
+}
+.create{
+    height:30px; width:75px; border:px solid black;  background-color:#4266B2; color:white; margin-top:6px;
+     cursor: pointer; float: left;
+}
+.create a{
+   margin-left:13px; text-decoration: none; color:white; font-size: 12px; margin-top:9px; float: left;
+}
+.create:hover{
+    background-color:#385899;
+}
+.icons{
+    height:43px; width:16%; top:6px; border:1 px solid tomato; float: left;
+}
+.friend{
+    height:43px; width:33px; float:left; border:1 px solid green; margin-right: 6px; float: left;
+}
+.friend img{
+    height:28px; width:31px; opacity: 0.9; margin-left: 2px; margin-top: 8px; cursor: pointer;
+}
+.messenger{
+    height:43px; width:30px; float:left; border: 0px solid green; margin-right: 2px; float: left;
+}
+.messenger img{
+    height:27px; width:35px; opacity: 0.9; margin-left: 0px; margin-top: 10px; cursor: pointer;
+}
+.bell{
+    height:43px; width:33px; float:left; margin-left: 7px; border:1 px solid green; margin-right: 2px; float: left;
+}
+.bell img{
+    height:29px; width:32px; margin-left:0px; margin-top:9px; opacity: 1.0; cursor: pointer;
+}
+.question{
+    height:43px; width:33px; float:left; margin-left:2px;border: px solid black; margin-right: 2px; float: left; 
+}
+.question img{
+    height:30px; width:32px; margin-left:0px; cursor: pointer; margin-top:7px; border: px solid black; float:left;
+}
+.drop{
+    height:43px; width:33px; float:left; margin-left: 6px; border: px solid green; margin-right: 2px; float: left;
+}
+.drop img{
+    height:30px; width:30px; margin-left:0px; margin-top:8px; cursor: pointer;
+}
+section{
+   height:550px; width:18%; margin-top:38px; margin-left:2%; border:px solid black; font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px; font-weight: bold;  position:fixed; float:left;
+}
+.sidebar{
+    height:25px; width:80%; margin-left: 12%; margin-top:4px; border:0px solid black;
+}
+.sidebar img{
+    height:25px; width:25px; margin-left:1px; border-radius:50%; border:0px solid blue; float:left;
+}
+.sidebar a{
+    text-decoration: none; border:0px solid tomato; margin-left: 5px; margin-top:6px; float:left; color:black; opacity:0.7;
+}
+.sidebar:hover{
+    background-color: #fff; color:black;
+}
+.shortcuts{
+    height:18px; width:20%; cursor: pointer; margin-left:13.5%; border:px solid red; margin-top:6%; 
+}
+article{
+    height:800px; width:41%; float:left; margin-left:21.3%; margin-top:38px; border:px solid red;
+}
+.article1{
+    height:500px; width:18%; float:left; border:1px solid yellow; margin-left:1%; margin-top:38px;
+}
+aside{
+    height:700px; width:16%; background-color:#EAEBEF;  border:1px solid yellow; margin-top:38px; margin-left:1135px; float:left; 
+    position:fixed; overflow-y: scroll;
+}
+.createpost{
+    font-size:12px; height:200px; width:100%; border-radius:5px;  border:px solid green; background-color:#f5f6f7; 
+    margin-bottom: 10px; float: left;
+}
+.c_post{
+    height:30px; width:100%; border:px solid green; float:left; border-radius:5px; background: #f5f6f7; 
+}
+.c_post a{
+    margin-left:3%; margin-top:1.5%; float:left; text-decoration: none; color:#4B4F56; font-size:13px;
+}
+.something{
+    height:140px; width:100%; background-color: #fff; border-radius:5px; border:px solid green; margin-top:0px;float: left;
+}
+.something img{
+    height:40px; width:40px;  border-radius:50%; margin-top:15px; margin-left:10px; float:left;
+}
+.something p{
+    margin-left:10px;  opacity:0.7; margin-top:25px; float:left; font-size:14px; color:#90949C; cursor: text; font-weight:normal
+}
+hr{
+    width:95%; margin-top:80px; margin-left:10px; opacity: 0.5; 
+}
+.bars{
+    height:40px; width:100%; border:px solid green;  margin-top:10px;
+}
+.bars img{
+    height:25px; width:25px; margin-top:5px; margin-left:8px;  
+}
+.bars p{
+    margin-left:5px; margin-top:10px; font-family: Helvetica, Arial, sans-serif; color:black; font-size: 13px; font-weight: bold;
+}
+.photo{
+     height:35px; width:140px; border:0px solid black; background-color:#f5f6f7; margin-left:10px; border-radius:30px; cursor:pointer; margin-top:2px; float: left; 
+}
+.photo:hover{
+    background-color:#EAEBEF;
+}
+.tag{
+     height:35px;width:140px; border:0px solid black; background-color:#f5f6f7;margin-left:10px; border-radius:30px; cursor:pointer; float:left; margin-top:2px; 
+}
+.tag:hover{
+    background-color:#EAEBEF;
+}
+.feeling{
+     height:35px;;width:140px; border:0px solid black;background-color:#f5f6f7; margin-left:10px; border-radius:30px; cursor:pointer; margin-top:2px; float:left; 
+}
+.feeling:hover{
+    background-color:#EAEBEF;
+}
+.dots{
+    height: 35px; width:60px;  background:url("dots.png"); border:0px solid black; border-radius: 30px; cursor: pointer; float:left;
+}
+.stories{
+    height:250px; width:100%; margin-left:0px; border-radius:5px; border:px solid black; background-color: #fff; float: left ;
+}
+.stories img{
+    height:208px; width:491px; border-radius:0px; border:0px solid black;  margin-left:8px; margin-top:0px;
+}
+
+.flist{
+    height:32px; width:95%; margin-left:2%; margin-top:15px; border:0px solid black; font-size:12px; 
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+}
+.flist img{
+    height:33px; width:33px; margin-left:1px; margin-top:px;border-radius:50%; border:0px solid blue; float:left;
+}
+.flist a{
+    text-decoration: none; border:0px solid tomato; margin-left: 5px; margin-top:8px; float:left; color:black; opacity:0.7;
+}
+.flist:hover{
+    background-color: #fff; color:black;
+}
+.online{
+    height: 9px; width:9px; border-radius: 50%; background-color: green; float:left; margin-top: 10px; margin-left:33px;
+} 
+.middle{
+    height:250px; width:545px; border:px solid green; margin-left:0px; margin-top:420px; border-radius:5px; background-color: #fff;
+}
+
+
+
+
+

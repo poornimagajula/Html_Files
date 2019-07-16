@@ -1,0 +1,254 @@
+body{
+    background-color:#EAEBEF; font-family: Helvetica, Arial, sans-serif;
+}
+header{
+    height:43px; width:100%; border-bottom: 1px solid rgb(2, 61, 109) ; background-color:#4266B2; position : fixed; top:0px; right:0px;  
+}
+header img{
+    height:25px; width:25px; margin-left:70px; margin-top:10px;
+}
+header input{
+    height:25px; width:30%; position:fixed; top:10px; margin-left:5px; font-size: 14px;
+}
+.search{
+    height:23px; width:3%; position:fixed; top:11px; margin-left:467px; border:none; cursor: pointer; border:0px solid black;
+}
+.search img{
+    height:23px; width:3%; position:fixed; left:398px;  margin-top:0px;
+}
+.search.img :hover{
+    background-color:#385899;
+}
+.pic{
+    height:30px; width:120px; position:fixed; margin-left:680px; border:none;  background-color:#4266B2; color:white; top:6px; 
+     cursor: pointer;
+}
+.pic img{
+    height:30px; width:30px; position:fixed; border-radius:50%; margin-bottom:0px; margin-top:1px; margin-left:5px;
+}
+.pic a{
+    text-decoration: none; color:white; margin-left:38px; position:fixed; margin-top:9px; font-size: 12px;
+}
+.pic:hover{
+    background-color:#385899;
+}
+.home{
+    height:30px; width:60px; position:fixed; margin-left:790px; border:none;  background-color:#4266B2; color:white; top:6px; 
+     cursor: pointer;
+}
+.home a{
+   margin-left:13px; text-decoration: none; color:white;  position:fixed; margin-top:9px; font-size: 12px;
+}
+.home:hover{
+    background-color:#385899;
+}
+.create{
+    height:30px; width:60px; position:fixed; margin-left:850px; border:none;  background-color:#4266B2; color:white; top:6px; 
+     cursor: pointer;
+}
+.create a{
+    text-decoration: none; color:white; margin-left:10px; position:fixed; margin-top:9px; font-size: 12px;
+}
+.create:hover{
+    background-color:#385899;
+}
+.icons{
+    height:30px; width:150px; position:fixed;  margin-left:930px; top:6px;    
+}
+.friend{
+    height:35px; width:33px; margin-left:0px; position: fixed; top:4px; float:left;
+}
+.friend img{
+    height:35px; width:33px; margin-left:1px; position:fixed; margin-top:0px; opacity: 0.9; cursor: pointer;
+}
+.messenger{
+    height:30px; width:30px; margin-left:45px; position: fixed; top:6px; float:left;
+}
+.messenger img{
+    height:21px; width:21px; margin-left:4px; position:fixed; margin-top:5px; opacity: 0.9; cursor: pointer;
+}
+.bell{
+    height:30px; width:30px; margin-left:75px; position: fixed; top:7px; float:left;
+}
+.bell img{
+    height:25px; width:30px; margin-left:5px; position:fixed; margin-top:1px; opacity: 1.0; cursor: pointer;
+}
+.question{
+    height:30px; width:30px; margin-left:115px; position: fixed; top:7px; float:left;
+}
+.question img{
+    height:20px; width:20px; margin-left:5px; position:fixed; margin-top:4px; opacity:0.5; cursor: pointer;
+}
+
+.drop{
+    height:30px; width:30px; margin-left:140px; position: fixed; top:5px; float:left;
+}
+.drop img{
+    height:30px; width:30px; margin-left:5px; position:fixed; margin-top:1px; opacity:0.6; cursor: pointer;
+}
+section{
+    height:500px; width:20%; float:left; position:fixed; top:43px; left:0px; border:0px solid black; font-family: Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold
+}
+
+section img{
+    height:28px; width:28px; position:fixed; border-radius:50%; margin-bottom:0px; margin-top:2px; margin-left:3px; cursor: pointer;
+}
+section a{
+    height:30px; width:100px; position: fixed; margin-left:35px; margin-top:8px; text-decoration: none; color:#1D2129; opacity:0.8
+}
+.profile{
+    height:30px; width:170px; position: fixed; margin-left:70px; margin-top:10px; border:0px soild red; 
+}
+.profile:hover{
+    background-color:white;
+}
+.newsfeed{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:55px; border:0px solid green;  
+}
+.newsfeed:hover{
+    background-color:white;
+}
+.messengr{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:85px;  
+}
+.messengr:hover{
+    background-color:white;
+}
+.watch{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:115px;  
+}
+.watch:hover{
+    background-color:white;
+}
+.market{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:145px;  
+}
+.market:hover{
+    background-color:white;
+}
+.shortcuts{
+    height:25px; width:25px; position:fixed; margin-left:40px; cursor: pointer; margin-top:186px; opacity:0.9;
+}
+.pages{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:215px;  
+}
+.pages:hover{
+    background-color:white;
+}
+.groups{
+    height:30px; width:160px; position: fixed; margin-left:68px; margin-top:240px;  
+}
+.groups:hover{
+    background-color:white;
+}
+.events{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:270px;  
+}
+.events:hover{
+    background-color:white;
+}
+.fundra{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:300px;  
+}
+.fundra:hover{
+    background-color:white;
+}
+.weather{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:330px;  
+}
+.weather:hover{
+    background-color:white;
+}
+.jobs{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:360px;  
+}
+.jobs:hover{
+    background-color:white;
+}
+.movies{
+    height:30px; width:160px; position: fixed; margin-left:70px; margin-top:390px;  
+}
+.movies:hover{
+    background-color:white;
+}
+.createpost{
+    opacity:0.9; font-size:12px; height:25%; width:40%; margin-left:250px; margin-top:18px; border-radius:5px; position:fixed; border:0px solid black; background-color:#f5f6f7;
+}
+.createpost button{
+    height:5%; width:40%; margin-left:0px; margin-top:0px; position:fixed; border:0px solid blue; text-align:left; background: #f5f6f7;
+}
+.something{
+    height:20%; width:40%; background-color: #fff; margin-top:30px; position:fixed; border-radius:5px;
+}
+.something img{
+    height:40px; width:40px; position:fixed; border-radius:50%; margin-top:15px; margin-left:10px;
+}
+.something p{
+    margin-left:55px; position:fixed; opacity:0.7; margin-top:25px;
+}
+hr{
+    width: 95%; margin-top:70px; margin-left:15px; opacity: 0.5;
+}
+.bars{
+    height:42px; border:0px solid green; position: fixed; width:40%;
+}
+.bars img{
+    height:25px; width:25px; margin-top:3px; margin-left:3px; color:#4B4F56; font-size: 12px;
+}
+.bars p{
+    opacity:0.7; margin-left:30px; margin-top:8px;
+}
+.photo{
+    height:30px; width:140px; border:0px solid black; background-color:#f5f6f7; margin-left:5px; border-radius:30px; cursor:pointer; margin-top:5px; float: left; position:fixed;
+}
+.photo:hover{
+    background-color:#EAEBEF;
+}
+.tag{
+    height:30px;width:140px; border:0px solid black; background-color:#f5f6f7;margin-left:155px; border-radius:30px; cursor:pointer; float:left; margin-top:5px; position: fixed;
+}
+.tag:hover{
+    background-color:#EAEBEF;
+}
+.feeling{
+    height:30px;;width:140px; border:0px solid black;background-color:#f5f6f7; margin-left:308px; border-radius:30px; cursor:pointer; margin-top:5px; float:left; position: fixed;
+}
+.feeling:hover{
+    background-color:#EAEBEF;
+}
+.dots{
+    height: 30px; width:60px; position: fixed; background:url("dots.png"); border:0px solid black; border-radius: 30px; cursor: pointer; margin-top:5px; float:left; margin-left:460px;
+}
+.stories{
+    height:250px; width:545px; margin-left:0px; margin-top:60px; border-radius:5px; border:0px solid black; background-color: #fff;
+}
+.stories img{
+    height:208px; width:491px; border-radius:0px; border:0px solid black;  margin-left:8px; margin-top:0px;
+}
+.aside{
+    height:700px; width: 15%; background-color:#EAEBEF;  position:fixed; right:0px; margin-top:2px; border:1px solid green; font-size:12px;
+    font-family: Arial, Helvetica, sans-serif; font-weight: bold;
+}
+.flist{
+    height:40px; width:190px; border:0px solid black; margin-left:5px; margin-top:5px; position:fixed; 
+}
+.person{
+    border:0px solid green; margin-left:45px; margin-top:10px; position: fixed; 
+}
+.flist img{
+    height:35px; width:35px; border-radius:50%; border:0px solid green; margin-top:1px;
+}
+p{
+    opacity:0.7; margin-left:35px;
+}
+.online{
+    height: 9px; width:9px; border-radius: 50%; background-color: green; position:fixed; margin-top:14px; margin-left:175px;
+} 
+.middle{
+    height:250px; width:545px; border:1px solid green; margin-left:0px; margin-top:10px; border-radius:5px; background-color: #fff;
+}
+
+
+
+
+

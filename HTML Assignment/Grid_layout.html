@@ -1,0 +1,106 @@
+<html>
+    <head>
+        <meta name= "viewport" content = "width= device-width, initial-scale = 1.0" >
+        <title>Grid Layout</title>
+        <link rel="stylesheet" type="text/css" href="gridlayout.css">
+        <link type="text/css" rel = "stylesheet" href="../fontawesome-free-5.9.0-web/css/solid.min.css">
+        <link type="text/css" rel="stylesheet" href="../fontawesome-free-5.9.0-web/css/fontawesome.min.css">
+       
+    </head>
+    <body>
+        <header>
+            <p class = "celtg">HTML Grid Layout</p>
+        </header>
+        <nav>
+            <ul class="anko1">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#popup">Pop-up</a></li>
+                    <li><a href="#accordion">Accordion</a></li>
+                    <li><a href="#coursoel">Coursoel</a></li>
+                    <li><a href="#contact">Contact-us</a></li>
+            </ul>
+        </nav>
+        <aside id="home">
+            <ul class = "anko">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#popup">Pop-up</a></li>
+                <li><a href="#accordion">Accordion</a></li>
+                <li><a href="#coursoel">Coursoel</a></li>
+                <li><a href="#contact">Contact-us</a></li>
+            </ul>
+        </aside>
+        <section>
+                <div id="popup" class="popup-sec" >
+                        <p class="anko1">Popup</p>
+                        <div id="showpop" class="showpop">
+                            <button class="show-pop" onclick="showpop()">Show Popup</button>
+                        </div>
+                        <div class="bg" id="show">
+                            <div class="popwin" id="showwin">
+                                <h2> Are you sure?</h2>
+                                <button class="cls-btn" onclick="hidepop()"><i class="fas fa-times"></i></button>
+                                <button class=" yes" onclick="hidepop()">Yes</button>
+                                <button class="no" onclick="hidepop()">No</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="accordion" class="accordion">
+                        <p class="anko1">Accordion</p>
+                        <div id="acc-sec" class="acc-sec">
+                            <button class="section1" id="section1">Section1</button>
+                                <div class="panel">
+                                    <p>
+                                        Hi, i am poornima <br>
+                                        i am from tenali
+                                    </p>
+                                </div>
+                            <button class="section1" id="section2">Section2</button>
+                            <div class="panel">
+                                    <p>
+                                        Hi, i am poornima <br>
+                                        i am from tenali
+                                    </p>
+                                </div>
+                            <button class="section1" id="section3">Section3</button>
+                            <div class="panel">
+                                    <p>
+                                        Hi, i am poornima <br>
+                                        i am from tenali
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  id="coursoel" class="coursoel" >
+                        <p class="anko1">Coursoel</p>
+                        <div class="coursoel_sec">
+                        <div class="slideshow">
+                            <img class="slides" src="html.png" style="width:100%;">
+                            <img class="slides" src="css.jpg" style="width: 100%;">
+                            <img class="slides" src="javascript.jpg" style="width: 100%;">
+                            <img class="slides" src="Angular.jpg" style="width: 100%;">
+                            <button class="slide-btn left-btn" onclick="slideImages(-1)"> &#10094; </button>
+                            <button class="slide-btn right-btn" onclick="slideImages(1)"> &#10095; </button>
+                        </div>
+                    </div>
+                    </div>
+                    <div></div>
+
+        </section>
+        <footer id="contact">
+            <div class="foot1">
+			    <div class="flogo anko">
+				    <a href="Grid_layout.html" class="fcompany">Grid Layout</a> 
+                </div>
+			    <div class="icons">
+				    <img src="tweet.png" />
+				    <img src="icon2.png" />
+				    <img src="linkedin.png" />
+				    <img src="gplus.png" />
+				    <img src="fb.png" />
+			    </div>
+		    </div>		
+		<span class="rights">2019 @ Trust In Me. All Rights Reserved</span>
+        </footer>
+        <script src="gridlayout.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Fonts-Import</title>
+    <script>
+        @font-face{
+            font-family:myfirstfont; 
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

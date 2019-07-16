@@ -1,0 +1,61 @@
+.style1{
+	height: 410px;	width: 1300px;	margin-bottom:1px ; /*border:1px solid blue;*/
+}
+.style11{
+	height:200px;	width:1330px; 	 margin-top:1px; /*border:1px solid blue;*/
+}
+.style12{
+	height:200px; width:1330px;  margin-top:1px;	/*border:1px solid blue;*/
+}
+.style111{
+	height:200px;	width:320px;	float:left;	margin-right:10px; 	margin-bottom:1px; clear: both; /*border:1px solid blue;*/
+}
+.style112{
+	height:200px;	width:320px;	float:right; /*border:1px solid blue;*/
+}
+.style113{
+	height:200px;	width:320px;	float:right; margin-right:10px; /*border:1px solid blue;*/
+}
+.style114{
+	height:200px; width:320px;	float:left;	color:#000080; font-family:garamond;	 /*border:1px solid blue;*/
+}
+.style121{
+	height:200px;	width:320px;	float:left;	/*border:1px solid blue;*/
+}
+.style122{
+	height:200px;	width:320px;	float:right;	/*border:1px solid blue;*/
+}
+.style123{
+	height:200px; width:660px; float:left;	margin-left:30px;	color: maroon; /*border:1px solid blue;*/
+}
+.style21{
+	height: 410px;	width:660px;	float:left;	/*border:1px solid blue;*/
+}
+.style211{
+	height:200px;	width:320px;	float:left;	margin-top:10px;	/*border:1px solid blue;*/
+}
+.style212{
+	height:200px;	width:320px;	float:left; clear:left; margin-top:10px;/*border:1px solid blue;*/
+}
+.style22{
+		height:410px;	width:660px;	float:right;	margin-top:10px;	/*border:1px solid blue; */
+}
+.style213{
+	height:200px;	width:660px;	float:left; /*margin-right:30px;	/*border:1px solid blue;*/
+}
+/*.style212{
+		height:200px; width: 320px; float:right;	margin-left:1px;	font-family: garamond;	border:1px solid blue;
+}*/
+
+table,th,td{background-size: cover;	border:1px solid white; border-collapse: collapse; 	text-align:center; font-family: garamond;  }
+th,td{padding:15px; text-align: center; font-family: cambria; color:#C8188E;}
+th{color: #357484;	font-style:italic;}
+a{text-decoration:none;	}
+
+
+body{background-color: lightgray}
+h1{text-align:center;background:slateblue}
+h2{text-align: center; background-color: #D1CC3D; color:#357484}
+	p{font-style:italic; font}
+
+

@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Pseudo Classes</title>
+        <style>
+           a:link{
+               color:red;
+           } 
+           a:visited{
+               color:green;
+           }
+           a:hover{
+               color:hotpink;
+           }
+           a:active{
+               color:blue;
+           }
+           div > p:first-child{
+               text-indent: 50px;
+               background-color: tomato;
+           }
+           div >p:last-child{
+               padding-left:100px;
+               background-color: brown;
+           }
+           p::first-line{text-decoration:underline; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 30px;}
+           p::first-letter{font-size:50px; font-style: italic;}
+           .last::after{content: '%'; font-size:40px; }
+           .last::before{content: "$"; font-size:50px;}
+        </style>
+    </head>
+    <body>
+        <div>
+            <p>This is the first line</p>
+            <p> This is the middle</p>
+            <p> this is the middile after</p>
+            <p>This is the last paragraph</p>
+            <p class="last">8789</p>
+            
+        </div>
+        <a href="https://www.google.co.in/">Google</a>
+    </body>
+</html>
